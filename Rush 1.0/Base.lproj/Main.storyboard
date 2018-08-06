@@ -210,27 +210,6 @@
             <point key="canvasLocation" x="916" y="811.84407796101959"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="xkK-rN-2oy">
-            <objects>
-                <viewController id="Fej-md-o6A" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="THS-QW-jsJ">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="xkJ-xb-TMo">
-                                <rect key="frame" x="119" y="269" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="LzB-tC-kwo"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="3YA-bs-Rv6" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1638" y="789"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="fcg-UP-e7B">
             <objects>
                 <viewController id="Vsu-eq-eMX" sceneMemberID="viewController">
@@ -510,6 +489,197 @@
             </objects>
             <point key="canvasLocation" x="916" y="1510.7946026986508"/>
         </scene>
+        <!--Clinical-->
+        <scene sceneID="75b-86-fS2">
+            <objects>
+                <viewController title="Clinical" id="R7U-cM-pMJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pTk-Kp-8sQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BuS-Hg-O34" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="72" y="420" width="230" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Appointments">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1tH-QH-OAv" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="72" y="294" width="230" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Medication">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5zD-k5-wTC" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="72" y="174" width="230" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Higi Stats">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="Cdi-Oe-m5f">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="0jb-CU-KvC"/>
+                    </view>
+                    <connections>
+                        <segue destination="s73-6i-46D" kind="show" id="XN1-Qx-ay2"/>
+                        <segue destination="s73-6i-46D" kind="show" id="rF6-Ye-xwV"/>
+                        <segue destination="RS1-6a-7Hd" kind="show" id="Pub-Dt-pFw"/>
+                        <segue destination="SOZ-2D-iKh" kind="show" id="vPk-xG-86b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wiF-Yc-GwK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1614" y="1515"/>
+        </scene>
+        <!--Shelters-->
+        <scene sceneID="3h9-Ku-Jld">
+            <objects>
+                <viewController title="Shelters" id="lxN-Dq-3Iz" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R72-Lo-woD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="h4F-5W-3f7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="vX8-HQ-Wd2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tq1-fP-cjn" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="230" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Appointments">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="D2z-gw-vyr" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="44" y="316" width="287" height="35"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Pacific Garden Mission">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6rJ-Ze-okI" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="44" y="238" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Deborah's Place">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EC1-Kn-we7" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="44" y="156" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Cathedral Shelter">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JBj-hh-45j" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="44" y="402" width="287" height="30"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Southwest Chicago">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="HQv-Z8-Sqs"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DEZ-He-B8g" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2509.5999999999999" y="1514.392803598201"/>
+        </scene>
+        <!--Higi Stats-->
+        <scene sceneID="VTV-Sa-xH8">
+            <objects>
+                <viewController title="Higi Stats" id="s73-6i-46D" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="l95-Fc-M7s">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="q34-ec-EuD">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Image-1" translatesAutoresizingMaskIntoConstraints="NO" id="i8G-dt-lIo">
+                                <rect key="frame" x="0.0" y="51" width="375" height="616"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bZl-5I-P4r"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gcM-yh-Mbb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3256.8000000000002" y="1516.1919040479761"/>
+        </scene>
+        <!--Medication-->
+        <scene sceneID="msV-oC-fWN">
+            <objects>
+                <viewController title="Medication" id="RS1-6a-7Hd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="RdW-dx-3RU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="SHE-vm-yiz">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Xl0-vB-faT"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="anq-D4-34X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4001" y="1515"/>
+        </scene>
+        <!--Appointments-->
+        <scene sceneID="SYy-YY-noZ">
+            <objects>
+                <viewController title="Appointments" id="SOZ-2D-iKh" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="V2Y-vM-Jf6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="QGv-yw-4Cj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="J7i-qp-r6s"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PeC-Or-Xof" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4754" y="1516"/>
+        </scene>
         <!--Room 1-->
         <scene sceneID="D5i-h5-89y">
             <objects>
@@ -780,6 +950,39 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ov8-nR-dU9" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="72" y="458" width="231" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="HelpMe">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="lxw-ct-NCT" kind="show" id="ROP-Da-fFy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KSu-2V-qck" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="72" y="318" width="231" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Clinical">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <connections>
+                                    <segue destination="R7U-cM-pMJ" kind="show" id="cFw-RN-k1K"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bnJ-fd-ACD" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="72" y="172" width="231" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="Shelters">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rush logo" translatesAutoresizingMaskIntoConstraints="NO" id="6LJ-Ry-kGp">
                                 <rect key="frame" x="7" y="73" width="59" height="1"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -789,7 +992,9 @@
                         <viewLayoutGuide key="safeArea" id="O1P-K3-7Ls"/>
                     </view>
                     <connections>
-                        <segue destination="Fej-md-o6A" kind="show" id="6CW-sM-w15"/>
+                        <segue destination="lxN-Dq-3Iz" kind="show" id="PpM-DJ-8f0"/>
+                        <segue destination="lxw-ct-NCT" kind="show" id="eey-dp-1ir"/>
+                        <segue destination="R7U-cM-pMJ" kind="show" id="VGx-bF-niP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gDA-7h-yFs" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1508,8 +1713,53 @@
             </objects>
             <point key="canvasLocation" x="2509.5999999999999" y="3603.1484257871066"/>
         </scene>
+        <!--HelpMe-->
+        <scene sceneID="zoZ-R4-CtR">
+            <objects>
+                <viewController title="HelpMe" id="lxw-ct-NCT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ybC-mx-1xv">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="simple" translatesAutoresizingMaskIntoConstraints="NO" id="7ja-kd-bbq">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HLh-jx-BkV" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="10" y="10" width="231" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="HelpMe">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="12_emergency_0" translatesAutoresizingMaskIntoConstraints="NO" id="TZ5-gJ-bpg">
+                                <rect key="frame" x="74" y="203" width="227" height="224"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kof-LT-SaR" customClass="RoundedButton" customModule="Rush_1_0" customModuleProvider="target">
+                                <rect key="frame" x="74" y="435" width="231" height="31"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="HelpMe">
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="bL0-e6-h82"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X5Z-8h-R5X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1613.5999999999999" y="811.84407796101959"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="12_emergency_0" width="512" height="512"/>
+        <image name="Image-1" width="750" height="1334"/>
         <image name="checkmark" width="1600" height="1600"/>
         <image name="chicago1" width="744" height="1392"/>
         <image name="rush logo" width="600" height="348"/>
@@ -1517,10 +1767,13 @@
         <image name="xmark" width="750" height="750"/>
     </resources>
     <inferredMetricsTieBreakers>
+        <segue reference="eey-dp-1ir"/>
         <segue reference="9FD-AD-kt7"/>
         <segue reference="Zwp-AH-YWZ"/>
-        <segue reference="7bn-DY-Qxy"/>
+        <segue reference="u6J-RU-UtD"/>
+        <segue reference="XN1-Qx-ay2"/>
+        <segue reference="VGx-bF-niP"/>
         <segue reference="F6q-9E-Gr0"/>
-        <segue reference="M8s-OA-Bha"/>
+        <segue reference="d8A-nb-cwm"/>
     </inferredMetricsTieBreakers>
 </document>
