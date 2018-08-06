@@ -10,10 +10,10 @@
 		318673F6211279C800D841E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318673F5211279C800D841E9 /* AppDelegate.swift */; };
 		318673F8211279C800D841E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318673F7211279C800D841E9 /* ViewController.swift */; };
 		318673FB211279C800D841E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318673F9211279C800D841E9 /* Main.storyboard */; };
-		318673FD211279C900D841E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318673FC211279C900D841E9 /* Assets.xcassets */; };
 		31867400211279C900D841E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318673FE211279C900D841E9 /* LaunchScreen.storyboard */; };
 		318674082112853D00D841E9 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318674072112853D00D841E9 /* RoundedButton.swift */; };
 		318674342117BCA200D841E9 /* Beds.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318674332117BCA200D841E9 /* Beds.swift */; };
+		3F8406A121188F7100E9D18A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F8406A021188F7100E9D18A /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +21,11 @@
 		318673F5211279C800D841E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		318673F7211279C800D841E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		318673FA211279C800D841E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		318673FC211279C900D841E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318673FF211279C900D841E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31867401211279C900D841E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		318674072112853D00D841E9 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		318674332117BCA200D841E9 /* Beds.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beds.swift; sourceTree = "<group>"; };
+		3F8406A021188F7100E9D18A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,11 +61,11 @@
 				318673F5211279C800D841E9 /* AppDelegate.swift */,
 				318673F7211279C800D841E9 /* ViewController.swift */,
 				318673F9211279C800D841E9 /* Main.storyboard */,
-				318673FC211279C900D841E9 /* Assets.xcassets */,
 				318673FE211279C900D841E9 /* LaunchScreen.storyboard */,
 				31867401211279C900D841E9 /* Info.plist */,
 				318674072112853D00D841E9 /* RoundedButton.swift */,
 				318674332117BCA200D841E9 /* Beds.swift */,
+				3F8406A021188F7100E9D18A /* Media.xcassets */,
 			);
 			path = "Rush 1.0";
 			sourceTree = "<group>";
@@ -129,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				31867400211279C900D841E9 /* LaunchScreen.storyboard in Resources */,
-				318673FD211279C900D841E9 /* Assets.xcassets in Resources */,
+				3F8406A121188F7100E9D18A /* Media.xcassets in Resources */,
 				318673FB211279C800D841E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
